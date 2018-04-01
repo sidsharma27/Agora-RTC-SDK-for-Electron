@@ -15,7 +15,7 @@
 #include "video_source_ipc.h"
 #include "video_source.h"
 #include <fstream>
-#include "scale.h"
+#include "libyuv.h"
 
 using namespace libyuv;
 using namespace agora::rtc;
