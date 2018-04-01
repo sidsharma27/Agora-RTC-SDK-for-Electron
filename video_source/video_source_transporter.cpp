@@ -79,12 +79,6 @@ void AgoraVideoSourceTransporter::release()
 int AgoraVideoSourceTransporter::deliverFrame(const agora::media::IVideoFrame& videoFrame, int rotation, bool mirrored)
 {
     /** Convey data. */
-    int width = videoFrame.width();
-    int height = videoFrame.height();
-    if(width > MAX_VIDEO_WIDTH || height > MAX_VIDEO_HEIGHT) {
-        return 0;
-    }
-    
     deliverFrame_I420(videoFrame, rotation, mirrored);
     m_videoSource.sendData(m_buf.data(), AgoraVideoSourceTransporter::S_BUF_LEN);
     return 0;
