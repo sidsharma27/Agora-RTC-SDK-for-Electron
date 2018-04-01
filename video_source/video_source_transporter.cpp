@@ -17,8 +17,6 @@
 #include <fstream>
 #include "scale.h"
 
-#pragma comment(lib, "yuv")
-
 using namespace libyuv;
 using namespace agora::rtc;
 
