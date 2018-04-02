@@ -1,6 +1,6 @@
 ## Agora.io RTC SDK for Electron
 
-#### Electron is a framework for creating native desktop applications with web technologies like JavaScript, HTML, and CSS. Using Agora’s Electron SDK you can add real time voice, video, and interactive broadcasting to your desktop applications with ease. To get started add the following files
+#### Electron is a framework for creating native desktop applications with web technologies like JavaScript, HTML, and CSS. Using Agora’s Electron SDK you can add real time voice, video, and interactive broadcasting to your desktop applications with ease.
 
 
 ### Build :
